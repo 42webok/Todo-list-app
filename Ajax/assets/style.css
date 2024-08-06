@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background: #219C90;
+}
+#formDiv {
+    width: 550px;
+    height: auto;
+    margin: 70px auto;
+    padding: 50px;
+    background: #ffffffdb;
+    border-radius: 15px;
+}
+#formDiv h1 {
+    text-align: center;
+    font-size: 28px;
+    font-family: sans-serif;
+    color: #000;
+    margin-bottom: 35px;
+}
+#formDiv form {
+    text-align: center;
+}
+
+#todoText {
+    width: 80%;
+    height: 40px;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+#todoText:focus-visible {
+    outline: none;
+}
+#todoAdd {
+    width: 12%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    background-color: #8b5ec6;
+    vertical-align: middle;
+}
+#formDiv ul {
+    list-style: none;
+    padding: 0;
+}
+#formDiv li {
+    background: #fff;
+    padding: 10px;
+    margin: 10px 4px 6px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    width: 93%;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.btn-success {
+    float: right;
+   
+}
+.btn-danger {
+    margin-right: 5px;
+    float: right;
+}
+#todoUl form {
+    text-align: left;
+}
+#todoUl input {
+    border: none;
+    border-bottom: 1px solid;
+    float: left;
+    width: 58%;
+    font-size: 18px;
+}
+#todoUl input:focus-visible{
+    outline: none;
+}
+#todoUl{
+    height: 170px;
+    overflow-y: auto;
+    position: relative;
+}
+.time{
+    position: absolute;
+    bottom: 0;
+    left: 1%;
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+}
+.myti{
+    position: relative;
+}
